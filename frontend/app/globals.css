@@ -17,8 +17,8 @@ body {
 }
 
 .sun {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   animation: spin 20s infinite; /* animação de rotação */
 }
 
