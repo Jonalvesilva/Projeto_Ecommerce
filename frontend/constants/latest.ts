@@ -1,12 +1,12 @@
-// latest 
-import p21_img from "./product_21.png";
-import p6_img from "./product_6.png";
-import p7_img from "./product_7.png";
-import p8_img from "./product_8.png";
-import p9_img from "./product_9.png";
-import p10_img from "./product_10.png";
-import p11_img from "./product_11.png";
-import p12_img from "./product_12.png";
+// latest
+import p21_img from "../public/assets/product_21.png";
+import p6_img from "../public/assets/product_6.png";
+import p7_img from "../public/assets/product_7.png";
+import p8_img from "../public/assets/product_8.png";
+import p9_img from "../public/assets/product_9.png";
+import p10_img from "../public/assets/product_10.png";
+import p11_img from "../public/assets/product_11.png";
+import p12_img from "../public/assets/product_12.png";
 
 const LATEST = [
   {
