@@ -15,3 +15,15 @@ body {
 .text-shadow {
   text-shadow: 1px 1px 3px black;
 }
+
+.sun {
+  width: 150px;
+  height: 150px;
+  animation: spin 20s infinite; /* animação de rotação */
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
