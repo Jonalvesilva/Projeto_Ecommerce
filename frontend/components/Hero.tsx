@@ -8,7 +8,7 @@ export default function Hero() {
     <section
       id="about"
       className="mt-[73px] w-full h-[900px] lg:h-[700px] flex bg-cover bg-center"
-      style={{ backgroundImage: "url('hero.jpg')" }}
+      style={{ backgroundImage: "url('/hero.jpg')" }}
     >
       <div className="max-w-screen-2xl h-full mx-auto flex flex-col lg:flex-row lg:px-6 lg:items-center">
         <div className="w-[90%] mx-auto h-full flex flex-col items-center justify-center gap-y-6">
@@ -19,7 +19,7 @@ export default function Hero() {
           <p className=" text-2xl bg-yellow-400/90 p-2 rounded-lg">30% OFF</p>
           <Link
             className="py-3 px-6 rounded-full bg-green-700 text-shadow font-semibold text-white"
-            href={`/`}
+            href={`/product`}
           >
             Veja Mais
           </Link>
