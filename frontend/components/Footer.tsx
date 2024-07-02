@@ -42,7 +42,7 @@ export default function Footer() {
               <FooterColumn>
                 <ul className="flex gap-4">
                   {SOCIALS.links.map((link: any) => (
-                    <Link href={`/`} key={link}>
+                    <Link href={`/`} key={link.src}>
                       <img
                         src={link.src}
                         alt="socialIcon"
@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
         <div className="border bg-gray-900"></div>
         <p className="text-center text-black">
-          Jon's Shop | All rights reserved | 2024
+          Jon's Shop | Todos direitos reservados | 2024
         </p>
       </div>
     </footer>
