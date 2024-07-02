@@ -18,8 +18,8 @@ export default function Navbar() {
         Roupas
       </Link>
       <Link
-        href={`/eletronics`}
-        className={`${pathname == "/eletronics" ? "active-link" : ""}`}
+        href={`/electronics`}
+        className={`${pathname == "/electronics" ? "active-link" : ""}`}
       >
         Eletrônicos
       </Link>

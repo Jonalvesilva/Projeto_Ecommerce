@@ -12,24 +12,27 @@ export default function MobileNavbar(props: Props) {
 
   return (
     <nav className={props.className}>
-      <Link href={`/`} className={`${pathname == "/" ? "active-link" : ""}`}>
+      <Link
+        href={`/`}
+        className={`${pathname == "/" ? "active-link-menu" : ""}`}
+      >
         Início
       </Link>
       <Link
         href={`/clothing`}
-        className={`${pathname == "/clothing" ? "active-link" : ""}`}
+        className={`${pathname == "/clothing" ? "active-link-menu" : ""}`}
       >
         Roupas
       </Link>
       <Link
-        href={`/eletronics`}
-        className={`${pathname == "/eletronics" ? "active-link" : ""}`}
+        href={`/electronics`}
+        className={`${pathname == "/electronics" ? "active-link-menu" : ""}`}
       >
         Eletrônicos
       </Link>
       <Link
         href={`/cosmetics`}
-        className={`${pathname == "/cosmetics" ? "active-link" : ""}`}
+        className={`${pathname == "/cosmetics" ? "active-link-menu" : ""}`}
       >
         Cosméticos
       </Link>
