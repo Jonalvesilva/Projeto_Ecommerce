@@ -7,9 +7,11 @@ import MobileNavbar from "./MobileNavbar";
 import { MdClose, MdMenu } from "react-icons/md";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { CiUser } from "react-icons/ci";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [nav, setNav] = useState(false);
+  const path = usePathname();
   const handleNav = (nav: boolean) => setNav(!nav);
 
   useEffect(() => {
@@ -25,6 +27,12 @@ export default function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [nav]);
+
+  useEffect(() => {
+    if (nav) {
+      setNav(false);
+    }
+  }, [path]);
 
   return (
     <div className="w-full bg-slate-800 fixed top-0 left-0 z-50">
@@ -64,15 +72,12 @@ export default function Header() {
                 />
               )}
               <div className="flex gap-x-4 items-center">
-                <Link
-                  href={"/cart"}
-                  className="relative flex bg-yellow-300 p-2 rounded-full hover:bg-yellow-200"
-                >
+                <p className="relative flex bg-yellow-300 p-2 rounded-full hover:bg-yellow-200">
                   <RiShoppingCart2Line size={20} className="text-black" />
                   <span className="absolute flex items-center text-sm font-light justify-center w-4 h-4 -top-[5px] left-[22px] rounded-full bg-red-500 text-white">
                     {0}
                   </span>
-                </Link>
+                </p>
                 <Link
                   href={`/login`}
                   className="flex gap-x-2 p-2 bg-yellow-300 rounded-xl hover:bg-yellow-200"
