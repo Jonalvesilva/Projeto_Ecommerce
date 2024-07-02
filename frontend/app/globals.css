@@ -12,6 +12,12 @@ body {
   text-underline-offset: 7px;
 }
 
+.active-link-menu {
+  color: orange;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
 .text-shadow {
   text-shadow: 1px 1px 3px black;
 }
