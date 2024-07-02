@@ -1,10 +1,9 @@
-
- const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+const FOOTER_CONTACT_INFO = {
+  title: "Contato",
   links: [
-    { label: "Contact Number", value: "123-456-7890" },
-    { label: "Email Address", value: "info@shoppee.com" },
+    { label: "Numero", value: "123-456-7890" },
+    { label: "Email", value: "jonsshop@shoppee.com" },
   ],
 };
 
-export default FOOTER_CONTACT_INFO
+export default FOOTER_CONTACT_INFO;

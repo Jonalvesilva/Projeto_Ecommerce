@@ -1,23 +1,18 @@
-
- const FOOTER_LINKS = [
+const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "Saiba mais",
     links: [
-      "About Us",
-      "Categories",
-      "Exchange Policy",
-      "Order Now",
+      "Sobre",
+      "Categorias",
+      "Politicas de Troca",
+      "Peça agora",
       "FAQ",
-      "Privacy Policy",
+      "Politicas de Privacidade",
     ],
   },
   {
-    title: "Our Community",
-    links: [
-      "Terms and Conditions",
-      "Special Offers",
-      "Customer Reviews",
-    ],
+    title: "Nossa Comunindade",
+    links: ["Termos e Condições", "Ofertas", "Reviews"],
   },
 ];
-export default FOOTER_LINKS
+export default FOOTER_LINKS;

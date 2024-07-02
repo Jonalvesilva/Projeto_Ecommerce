@@ -6,31 +6,31 @@ import p4_img from "../public/assets/product_4.png";
 const POPULAR = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Casaco K-Pop Moranguinho",
     image: p1_img,
     new_price: 50,
     old_price: 80,
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Adidas Sapatenis Casual Azul",
     image: p2_img,
     new_price: 85,
     old_price: 120,
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Men's Camiseta Ultra Algodão",
     image: p3_img,
     new_price: 60,
     old_price: 100,
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Men's Camisa Social Azul Escuro",
     image: p4_img,
-    new_price: 100,
-    old_price: 150,
+    new_price: 60,
+    old_price: 100,
   },
 ];
 

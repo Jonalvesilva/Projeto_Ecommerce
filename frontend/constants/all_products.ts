@@ -38,7 +38,7 @@ import p36_img from "../public/assets/product_36.png";
 let all_products = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Casaco K-Pop Moranguinho",
     category: "clothing",
     image: p1_img,
     new_price: 50,
@@ -46,7 +46,7 @@ let all_products = [
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Adidas Sapatenis Casual Azul",
     category: "clothing",
     image: p2_img,
     new_price: 85,
@@ -54,7 +54,7 @@ let all_products = [
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Men's Camiseta Ultra Algodão",
     category: "clothing",
     image: p3_img,
     new_price: 60,
@@ -62,7 +62,7 @@ let all_products = [
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Men's Camisa Social Azul Escuro",
     category: "clothing",
     image: p4_img,
     new_price: 100,
@@ -70,7 +70,7 @@ let all_products = [
   },
   {
     id: 5,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Tenis Outside Nike",
     category: "clothing",
     image: p5_img,
     new_price: 85,
@@ -78,7 +78,7 @@ let all_products = [
   },
   {
     id: 6,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Adidas Tenis Corrida Preto/Vermelho",
     category: "clothing",
     image: p6_img,
     new_price: 85,
@@ -86,7 +86,7 @@ let all_products = [
   },
   {
     id: 7,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Women's Sapato Salto Alto Vermelho",
     category: "clothing",
     image: p7_img,
     new_price: 85,
@@ -94,7 +94,7 @@ let all_products = [
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Kazuimy Sapatenis Social Azul",
     category: "clothing",
     image: p8_img,
     new_price: 85,
@@ -102,7 +102,7 @@ let all_products = [
   },
   {
     id: 9,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Noya Tenis Casual Verde",
     category: "clothing",
     image: p9_img,
     new_price: 85,
@@ -110,7 +110,7 @@ let all_products = [
   },
   {
     id: 10,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Men's Jaqueta Jeans Marrom",
     category: "clothing",
     image: p10_img,
     new_price: 85,
@@ -118,7 +118,7 @@ let all_products = [
   },
   {
     id: 11,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Women's Casaco Winter Marrom",
     category: "clothing",
     image: p11_img,
     new_price: 85,
@@ -126,7 +126,7 @@ let all_products = [
   },
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Noya Tenis Casual Classic",
     category: "clothing",
     image: p12_img,
     new_price: 85,
@@ -134,7 +134,7 @@ let all_products = [
   },
   {
     id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Samsung Smartwatch Galaxy 4",
     category: "electronics",
     image: p13_img,
     new_price: 85,
@@ -142,7 +142,7 @@ let all_products = [
   },
   {
     id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Notebook Mac 16 polegadas",
     category: "electronics",
     image: p14_img,
     new_price: 85,
@@ -150,7 +150,7 @@ let all_products = [
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Samsung Smartwatch Sport Galaxy F",
     category: "electronics",
     image: p15_img,
     new_price: 85,
@@ -158,7 +158,7 @@ let all_products = [
   },
   {
     id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "MI Carregador Universal 33W",
     category: "electronics",
     image: p16_img,
     new_price: 85,
@@ -166,7 +166,7 @@ let all_products = [
   },
   {
     id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Samsung Smartwatch Casual Galaxy A2",
     category: "electronics",
     image: p17_img,
     new_price: 85,
@@ -174,7 +174,7 @@ let all_products = [
   },
   {
     id: 18,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Adaptador de Micro-usb",
     category: "electronics",
     image: p18_img,
     new_price: 85,
@@ -182,7 +182,7 @@ let all_products = [
   },
   {
     id: 19,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Redmi Note 12 Capinhas Sortidas",
     category: "electronics",
     image: p19_img,
     new_price: 85,
@@ -190,7 +190,7 @@ let all_products = [
   },
   {
     id: 20,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Monofone Bluetooth Joway",
     category: "electronics",
     image: p20_img,
     new_price: 85,
@@ -198,7 +198,7 @@ let all_products = [
   },
   {
     id: 21,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Fone de Ouvido Bluetooth B",
     category: "electronics",
     image: p21_img,
     new_price: 85,
@@ -206,7 +206,7 @@ let all_products = [
   },
   {
     id: 22,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Caixas de Som Sub Woofer 30W RMS",
     category: "electronics",
     image: p22_img,
     new_price: 85,
@@ -214,7 +214,7 @@ let all_products = [
   },
   {
     id: 23,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Fones de Ouvido c/fio Branco",
     category: "electronics",
     image: p23_img,
     new_price: 85,
@@ -222,7 +222,7 @@ let all_products = [
   },
   {
     id: 24,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Samsung F22 + Fone Bluetooth",
     category: "electronics",
     image: p24_img,
     new_price: 85,
@@ -230,7 +230,7 @@ let all_products = [
   },
   {
     id: 25,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Perfume Versace Floral 20ml",
     category: "cosmetics",
     image: p25_img,
     new_price: 85,
@@ -238,7 +238,7 @@ let all_products = [
   },
   {
     id: 26,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Nivea Creme Hidratante Soft",
     category: "cosmetics",
     image: p26_img,
     new_price: 85,
@@ -246,7 +246,7 @@ let all_products = [
   },
   {
     id: 27,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Creme Rejuvenescedor Oriflame",
     category: "cosmetics",
     image: p27_img,
     new_price: 85,
@@ -254,7 +254,7 @@ let all_products = [
   },
   {
     id: 28,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Perfume Belle Lavanda 20ml",
     category: "cosmetics",
     image: p28_img,
     new_price: 85,
@@ -262,7 +262,7 @@ let all_products = [
   },
   {
     id: 29,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Perfume Burberry Fresh 20ml",
     category: "cosmetics",
     image: p29_img,
     new_price: 85,
@@ -270,7 +270,7 @@ let all_products = [
   },
   {
     id: 30,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Perfume Hugo Boss 20ml",
     category: "cosmetics",
     image: p30_img,
     new_price: 85,
@@ -278,7 +278,7 @@ let all_products = [
   },
   {
     id: 31,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Creme Cabelo Tresseme",
     category: "cosmetics",
     image: p31_img,
     new_price: 85,
@@ -286,7 +286,7 @@ let all_products = [
   },
   {
     id: 32,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Perfume Apple Souf 20ml",
     category: "cosmetics",
     image: p32_img,
     new_price: 85,
@@ -294,7 +294,7 @@ let all_products = [
   },
   {
     id: 33,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Kit Maquiagem Silver Flin",
     category: "cosmetics",
     image: p33_img,
     new_price: 85,
@@ -302,7 +302,7 @@ let all_products = [
   },
   {
     id: 34,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Perfume Paco Rabanne 1 Million 20ml",
     category: "cosmetics",
     image: p34_img,
     new_price: 85,
@@ -310,7 +310,7 @@ let all_products = [
   },
   {
     id: 35,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Agua Micelar Laneige 100ml",
     category: "cosmetics",
     image: p35_img,
     new_price: 85,
@@ -318,7 +318,7 @@ let all_products = [
   },
   {
     id: 36,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Kit Desodorante Axe Signature",
     category: "cosmetics",
     image: p36_img,
     new_price: 85,
