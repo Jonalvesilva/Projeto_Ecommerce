@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1440px] px-6 lg:px-20 flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href={`/`} className="text-xl">
-            Jon's Shop
+            Jon&apos;s Shop
           </Link>
           <div className="flex flex-wrap gap-8 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((col: any) => (
@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
         <div className="border bg-gray-900"></div>
         <p className="text-center text-black">
-          Jon's Shop | Todos direitos reservados | 2024
+          Jon&apos;s Shop | Todos direitos reservados | 2024
         </p>
       </div>
     </footer>

@@ -41,7 +41,7 @@ export default function Header() {
           <Link href={`/`} className="flex  items-center text-white">
             <Image src={`/logo.png`} width={50} height={30} alt="logo" />
             <div className="text-2xl hidden font-semibold min-[450px]:flex">
-              Jon's Shop
+              Jon&apos;s Shop
             </div>
           </Link>
           <div className="flex justify-center items-center gap-x-4">
