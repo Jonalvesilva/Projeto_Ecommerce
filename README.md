@@ -16,7 +16,7 @@
 <div style="background-color:#f0f0f0;">
   <pre>
     <code>
-      git clone https://github.com/Jonalvesilva/Projeto_Eccomerce.git
+      git clone https://github.com/Jonalvesilva/Projeto_Ecommerce.git
     </code>
   </pre>
 </div>
